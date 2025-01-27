@@ -1,0 +1,4 @@
+MOV R0, #7
+MOV R2, #0
+RSB R3, R0, R2
+SWI 0x11
