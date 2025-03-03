@@ -1,0 +1,21 @@
+.DATA
+A: .WORD 1,2,3,4,5,6,7,8,9
+
+.TEXT
+
+LDR R1, =A
+MOV R5, #3
+MOV R6, #0
+
+MOV R9, #2
+MOV R10, #1
+
+MLA R3, R10, R5, R9
+
+LOOP: LDR R2, [R1], #4
+	ADD R6, R6, #1
+	CMP R3, R6
+	BNE LOOP
+
+MOV R7, R1
+LDR R8, [R1]
