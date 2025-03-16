@@ -1,0 +1,1 @@
+savedcmd_/home/tejasr/Tejas_PERSONAL/sem4/os/test_module/tej.mod := printf '%s\n'   tej.o | awk '!x[$$0]++ { print("/home/tejasr/Tejas_PERSONAL/sem4/os/test_module/"$$0) }' > /home/tejasr/Tejas_PERSONAL/sem4/os/test_module/tej.mod

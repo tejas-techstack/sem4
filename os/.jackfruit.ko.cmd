@@ -1,0 +1,1 @@
+savedcmd_/home/tejasr/Tejas_PERSONAL/sem4/os/jackfruit.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/tejasr/Tejas_PERSONAL/sem4/os/jackfruit.ko /home/tejasr/Tejas_PERSONAL/sem4/os/jackfruit.o /home/tejasr/Tejas_PERSONAL/sem4/os/jackfruit.mod.o

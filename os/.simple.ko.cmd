@@ -1,0 +1,1 @@
+savedcmd_/home/tejasr/Tejas_PERSONAL/sem4/os/simple.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/tejasr/Tejas_PERSONAL/sem4/os/simple.ko /home/tejasr/Tejas_PERSONAL/sem4/os/simple.o /home/tejasr/Tejas_PERSONAL/sem4/os/simple.mod.o

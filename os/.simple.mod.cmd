@@ -1,0 +1,1 @@
+savedcmd_/home/tejasr/Tejas_PERSONAL/sem4/os/simple.mod := printf '%s\n'   simple.o | awk '!x[$$0]++ { print("/home/tejasr/Tejas_PERSONAL/sem4/os/"$$0) }' > /home/tejasr/Tejas_PERSONAL/sem4/os/simple.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/tejasr/Tejas_PERSONAL/sem4/os/test_module/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/tejasr/Tejas_PERSONAL/sem4/os/test_module/Module.symvers -T /home/tejasr/Tejas_PERSONAL/sem4/os/test_module/modules.order -i Module.symvers -e 
